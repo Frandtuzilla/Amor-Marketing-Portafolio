@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #000;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+        
+        .gallery {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+        
+        .gallery-item {
+            width: 100%;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #000;
+        }
+        
+        .gallery-item img,
+        .gallery-item video {
+            max-width: 100%;
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+            display: block;
+        }
+        
+        /* Remove video controls when in autoplay mode */
+        video::-webkit-media-controls {
+            display: none !important;
+        }
+        
+        /* Mobile-specific adjustments */
+        @media (max-width: 767px) {
+            .gallery-item {
+                min-height: auto;
+                height: auto;
+            }
+            
+            .gallery-item img,
+            .gallery-item video {
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="gallery">
+        <!-- Image Items -->
+        <div class="gallery-item">
+            <img src="/images/1.jpg" alt="Portfolio Item">
+        </div>
+        
+        <div class="gallery-item">
+            <img src="/images/2.jpg" alt="Portfolio Item">
+        </div>
+        
+        <div class="gallery-item">
+            <img src="/images/3.jpg" alt="Portfolio Item">
+        </div>
+        
+        <div class="gallery-item">
+            <img src="/images/4.jpg" alt="Portfolio Item">
+        </div>
+
+        <div class="gallery-item">
+            <img src="images/5.IGNORAESTE ES UN GIF.jpg" alt="Your GIF description">
+        </div>
+
+        <div class="gallery-item">
+            <img src="/images/6.IGNORAESTEESUNGIF.jpg" alt="Portfolio Item">
+        </div>
+
+        <div class="gallery-item">
+            <img src="/images/7.GIF IGNORA.jpg" alt="Portfolio Item">
+        </div>
+        
+        <div class="gallery-item">
+            <img src="/images/8.GIF INGORA ESTE.jpg" alt="Portfolio Item">
+        </div>
+
+        <div class="gallery-item">
+            <img src="/images/9.jpg" alt="Portfolio Item">
+        </div>
+
+        <div class="gallery-item">
+            <img src="/images/10.GIF IGNORA ESTE.jpg" alt="Portfolio Item">
+        </div>
+
+        <div class="gallery-item">
+            <img src="/images/11.GIF IGNORAR.jpg" alt="Portfolio Item">
+        </div>
+
+        <div class="gallery-item">
+            <img src="/images/12.GIF IGNORALOO.jpg" alt="Portfolio Item">
+        </div>
+
+        <div class="gallery-item">
+            <img src="/images/13.GIF IGNORA AUN.jpg" alt="Portfolio Item">
+        </div>
+
+        <div class="gallery-item">
+            <img src="/images/14.jpg" alt="Portfolio Item">
+        </div>
+
+        <div class="gallery-item">
+            <video autoplay loop muted playsinline>
+                <source src="videos/15.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <div class="gallery-item">
+            <video autoplay loop muted playsinline>
+                <source src="videos/16.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <div class="gallery-item">
+            <img src="/images/17.jpg" alt="Portfolio Item">
+        </div>
+
+        <div class="gallery-item">
+            <img src="/images/18.jpg" alt="Portfolio Item">
+        </div>
+
+        <div class="gallery-item">
+            <img src="/images/19.jpg" alt="Portfolio Item">
+        </div>
+
+        <div class="gallery-item">
+            <video autoplay loop muted playsinline>
+                <source src="videos/20.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <div class="gallery-item">
+            <video autoplay loop muted playsinline>
+                <source src="videos/21.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <div class="gallery-item">
+            <img src="/images/22.jpg" alt="Portfolio Item">
+        </div>
+
+        <div class="gallery-item">
+            <img src="/images/23.jpg" alt="Portfolio Item">
+        </div>
+
+        <div class="gallery-item">
+            <img src="/images/24.jpg" alt="Portfolio Item">
+        </div>
+
+        <div class="gallery-item">
+            <video autoplay loop muted playsinline>
+                <source src="videos/25.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <div class="gallery-item">
+            <img src="/images/25.jpg" alt="Portfolio Item">
+        </div>
+
+        <div class="gallery-item">
+            <img src="/images/26.jpg" alt="Portfolio Item">
+        </div>
+
+        <div class="gallery-item">
+            <img src="/images/27.jpg" alt="Portfolio Item">
+        </div>
+
+        <div class="gallery-item">
+            <img src="/images/28.jpg" alt="Portfolio Item">
+        </div>
+
+        <div class="gallery-item">
+            <img src="/images/29.jpg" alt="Portfolio Item">
+        </div>
+
+        <div class="gallery-item">
+            <video autoplay loop muted playsinline>
+                <source src="videos/30.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <div class="gallery-item">
+            <video autoplay loop muted playsinline>
+                <source src="videos/31.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+</body>
+</html>
